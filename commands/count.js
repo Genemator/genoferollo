@@ -7,8 +7,8 @@ composer.command('count', onlyPrivate, async ctx => {
     const usersCount = await ctx.db('users').find().estimatedDocumentCount().exec();
     ctx.reply(`I'm working for ${usersCount} user(s)!`)
   }
-})
+});
 
 module.exports = app => {
   app.use(composer.middleware())
-}
+};

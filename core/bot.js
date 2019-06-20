@@ -1,8 +1,6 @@
 // Telegraf connection
 const Telegraf = require('telegraf').default;
-const fs = require('fs');
-const token = fs.readFile('./token/token.txt', 'utf8');
-const bot = new Telegraf(token);
+const bot = new Telegraf("662120310:AAEKn4eXhQPnGT48oLHHlEPR0uRNMHKAUxw");
 const logger = require('./database/logger');
 const collection = require('./database');
 
@@ -19,6 +17,6 @@ module.exports = {
     bot
 };
 
-bot.launch();
+bot.startPolling();
 
 console.log('Bot started');
