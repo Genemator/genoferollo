@@ -1,3 +1,3 @@
 module.exports = app => {
-  require('./search')(app);
+  require('./someaction')(app);
 };

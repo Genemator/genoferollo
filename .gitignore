@@ -64,4 +64,6 @@ typings/
 .idea/workspace.xml
 .idea/
 yarn.lock
+
+# ignoring token bot (this is my private files)
 core/token/token.txt

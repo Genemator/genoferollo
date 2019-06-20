@@ -7,6 +7,10 @@
   "author": "Genemator <genemator@icloud.com> (uzhackintosh.sakhib.now.sh)",
   "license": "GNU General Public License v3.0",
   "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
   "dependencies": {
     "dotenv": "^8.0.0",
     "fs": "^0.0.1-security",
