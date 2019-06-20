@@ -8,6 +8,8 @@
   "license": "GNU General Public License v3.0",
   "private": true,
   "dependencies": {
+    "dotenv": "^8.0.0",
+    "fs": "^0.0.1-security",
     "nodemon": "^1.19.1",
     "telegraf": "^3.30.1"
   }

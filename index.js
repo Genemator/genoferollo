@@ -1,5 +1,4 @@
-// Telegraf connection
-const Telegraf = require('telegraf').default;
-let token = procces.env.BOT_TOKEN;
-const bot = new Telegraf(token);
-
+require('./env');
+const { bot } = require('./core/bot');
+require('./actions')(bot);
+require('./commands')(bot);
