@@ -63,5 +63,4 @@ typings/
 # idea files
 .idea/workspace.xml
 .idea/
-package.json
 yarn.lock

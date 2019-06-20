@@ -1,0 +1,14 @@
+{
+  "name": "genoferollo",
+  "version": "1.0.0",
+  "description": "The Helper Bot of The UzAnimation Team",
+  "main": "index.js",
+  "repository": "https://github.com/Genemator/genoferollo.git",
+  "author": "Genemator <genemator@icloud.com> (uzhackintosh.sakhib.now.sh)",
+  "license": "GNU General Public License v3.0",
+  "private": true,
+  "dependencies": {
+    "nodemon": "^1.19.1",
+    "telegraf": "^3.30.1"
+  }
+}
